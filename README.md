@@ -1,5 +1,8 @@
 # Open Source FAQ's answering chatbot using Rasa Stack
 
+Blog post explaining working [here](https://ajinkyat.github.io/nlp/faq-chatbot/).
+
+![](https://rasa.com/assets/img/rasa-ecosystem.png)
 
 ### Overview
 
@@ -19,7 +22,7 @@ Apart from that Rasa offers flexibility to customize our model according to our 
 
 3) Install Rasa Core (version used 9.5): [Rasa Core Installation](https://core.rasa.com/installation.html)
 
-4) [fuzzywuzzy](https://github.com/seatgeek/fuzzywuzzy): Fuzzy String Matching in Python for similar text retrieval
+4) [fuzzywuzzy](https://github.com/seatgeek/fuzzywuzzy): Fuzzy string matching in Python for similar text retrieval
 
 ### Getting Or Generating Data
 
