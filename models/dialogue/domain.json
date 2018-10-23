@@ -1,0 +1,13 @@
+{
+  "states": [
+    "intent_greet",
+    "intent_goodbye",
+    "intent_need_help",
+    "intent_inform",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_utter_greet",
+    "prev_utter_goodbye",
+    "prev_action_get_answer"
+  ]
+}

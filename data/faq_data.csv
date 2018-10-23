@@ -1,0 +1,30 @@
+question,answers,page,link
+How do I create a new git repository?,"git init
+git add .
+git commit -m ‘initial commit’
+git remote add origin <destination>
+git push -u origin master",1,http://gitfaq.org/articles/how-do-I-create-a-new-git-repository.html
+How do I add only a portion of a file?,git add --patch <file>,1,http://gitfaq.org/articles/how-do-i-add-a-portion-of-a-file.html
+How do I squash commits?,"There are multiple ways of squashing commits but the most recommended and straight forward is to use an interactive rebase, eg
+
+git rebase -i HEAD~4 # interactively rebase from 3 commits ago
+This command will bring up your editor with some helpful documentation and list of those commits and messages. The commits are listed in order with the oldest commit at the top and the latest commit at the bottom.",1,http://gitfaq.org/articles/how-do-I-squash-commits.html
+How do I change my last commit message?,"git commit --amend --only
+Or, without staged changes:
+
+git commit –amend",1,http://gitfaq.org/articles/how-do-i-change-my-last-commit-message.html
+How do I change the contents of a commit I have not pushed?,"NTM and SRM documents will not be visible agit commit --amend <files>
+or
+
+git commit --amend --all
+If the commit message does not need to be changed, add --no-edit eg
+
+git commit --amend --all –no-editt Entry Into Service of airnavX My Library. Those documents will be available two days after the Entry Into Service (EIS). ...",1,http://gitfaq.org/articles/how-do-i-change-the-contents-of-a-commit.html
+How do I compare branches?,"git branch <branch>      # just creates a branch off the current sha
+git checkout <branch>    # actually moves to the branch
+This can be simplified to:
+
+git checkout -b <branch> # branches and moves to the branch in one command",1,http://gitfaq.org/articles/how-do-i-create-a-branch.html
+How do I push my changes?,"git push
+git push origin branch-name",1,http://gitfaq.org/articles/how-do-i-push-my-changes.html
+How do I completely reset my local repository?,git reset git checkout . git clean -fdx,1,http://gitfaq.org/articles/how-do-i-reset-my-local-repository.html

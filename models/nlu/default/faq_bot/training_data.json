@@ -1,0 +1,184 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "heya"
+      },
+      {
+        "intent": "greet",
+        "text": "howdy"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see ya"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
+      },
+      {
+        "intent": "inform",
+        "text": "How do I create a new git repository?"
+      },
+      {
+        "intent": "inform",
+        "text": "How do I add only a portion of a file?"
+      },
+      {
+        "intent": "inform",
+        "text": "How do I squash commits?"
+      },
+      {
+        "intent": "inform",
+        "text": "How do I change my last commit message?"
+      },
+      {
+        "intent": "inform",
+        "text": "How do I change the contents of a commit I have not pushed?"
+      },
+      {
+        "intent": "inform",
+        "text": "How do I compare branches?"
+      },
+      {
+        "intent": "inform",
+        "text": "How do I push my changes?"
+      },
+      {
+        "intent": "inform",
+        "text": "How do I completely reset my local repository?"
+      },
+      {
+        "intent": "inform",
+        "text": "create new repo"
+      },
+      {
+        "intent": "inform",
+        "text": "add portion of file"
+      },
+      {
+        "intent": "inform",
+        "text": "squashing commits"
+      },
+      {
+        "intent": "inform",
+        "text": "changing last commit"
+      },
+      {
+        "intent": "inform",
+        "text": "commits that not pushed "
+      },
+      {
+        "intent": "inform",
+        "text": "changing commits that haven't pushed"
+      },
+      {
+        "intent": "inform",
+        "text": "comparing branches"
+      },
+      {
+        "intent": "inform",
+        "text": "pushing changes"
+      },
+      {
+        "intent": "inform",
+        "text": "resetting local repo"
+      },
+      {
+        "intent": "inform",
+        "text": "how to reset local repository"
+      },
+      {
+        "intent": "inform",
+        "text": "does is it"
+      },
+      {
+        "intent": "inform",
+        "text": "please how can"
+      },
+      {
+        "intent": "inform",
+        "text": "how what"
+      },
+      {
+        "intent": "inform",
+        "text": "pls how what"
+      },
+      {
+        "intent": "inform",
+        "text": "pls how does what"
+      },
+      {
+        "intent": "goodbye",
+        "text": "ok got it! thank you"
+      },
+      {
+        "intent": "goodbye",
+        "text": "ok got it"
+      },
+      {
+        "intent": "goodbye",
+        "text": "got it bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "ok"
+      },
+      {
+        "intent": "goodbye",
+        "text": "thanks"
+      },
+      {
+        "intent": "goodbye",
+        "text": "thank you!"
+      },
+      {
+        "intent": "goodbye",
+        "text": "thanx"
+      },
+      {
+        "intent": "greet",
+        "text": "hi!"
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}

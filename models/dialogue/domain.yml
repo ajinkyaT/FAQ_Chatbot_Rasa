@@ -1,0 +1,24 @@
+action_factory: null
+action_names:
+- utter_greet
+- utter_goodbye
+- action_get_answer
+actions:
+- utter_greet
+- utter_goodbye
+- actions.GetAnswer
+config:
+  store_entities_as_slots: true
+entities: []
+intents:
+- greet
+- goodbye
+- need_help
+- inform
+slots: {}
+templates:
+  utter_goodbye:
+  - text: Glad to help you! bye!
+  utter_greet:
+  - text: Hello! How can I help?
+topics: []

@@ -1,0 +1,18 @@
+intents:
+ - greet
+ - goodbye
+ - need_help
+ - inform
+
+
+templates:
+  utter_greet:
+    - 'Hello! How can I help?'
+  utter_goodbye:
+    - 'Glad to help you! bye!'
+
+
+actions:
+ - utter_greet
+ - utter_goodbye
+ - actions.GetAnswer
