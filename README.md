@@ -26,7 +26,7 @@ Apart from that Rasa offers flexibility to customize our model according to our 
 
 ### Getting Or Generating Data
 
-We will need labeled user data for training our NLU or interpretor part. While it is always better to have more data to train our ML models but in case we don't have it we can use free services such as [Chatito](https://rodrigopivi.github.io/Chatito/) or [Tracy](https://github.com/YuukanOO/tracy) to synthetically generate one to suite our use case.
+We will need labeled user data for training our NLU or interpreter part. While it is always better to have more data to train our ML models but in case we don't have it we can use free services such as [Chatito](https://rodrigopivi.github.io/Chatito/) or [Tracy](https://github.com/YuukanOO/tracy) to synthetically generate one to suite our use case.
 
 Data should be in json format as specified by Rasa [here](https://nlu.rasa.com/dataformat.html). An example will look like:
 
